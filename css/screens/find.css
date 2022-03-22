@@ -1,0 +1,141 @@
+.screen-header__dot {
+  background-color: tomato;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  position: absolute;
+  right: -10px;
+  top: -10px;
+}
+
+.screen-header__icons {
+  position: relative;
+}
+
+.recommended-friends {
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+  padding: 20px 0px;
+}
+
+.recommended-friends__title {
+  color: var(--grey-color);
+}
+
+.recommended-friends__friends-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.recommended-friends__friends {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--main-yellow);
+  padding: 23px;
+  border-radius: 20px;
+  transition: opacity 0.05s ease-out;
+}
+
+.recommended-friends__friends:hover {
+  opacity: 0.5;
+}
+
+.recommended-friends__friends__avatar {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 40%;
+  margin-bottom: 10px;
+}
+
+.recommended-friends__friends-add {
+  background-color: white;
+  padding: 7px;
+  border-radius: 15px;
+  margin-top: 7px;
+  color: var(--grey-color);
+}
+
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  color: var(--grey-color);
+  margin: 20px 0px;
+}
+
+.open-chat__header span {
+  opacity: 0.8;
+}
+
+.open-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.open-post__title {
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.open-post__hashtags {
+  text-transform: uppercase;
+  color: var(--grey-color);
+}
+
+.open-post__members {
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+}
+
+.open-post__members img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.open-post__members-count {
+  color: var(--grey-color);
+}
+
+.open-post__members .divider {
+  width: 1px;
+  height: 15px;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 0px 5px;
+}
+
+.open-post__members-status {
+  color: rgb(248, 70, 100);
+}
+
+.open-post__photo {
+  position: relative;
+}
+
+.open-post__photo img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.open-post__likes {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 5px;
+  bottom: 10px;
+}
+
+.open-post__likes span {
+  margin-left: 3px;
+}

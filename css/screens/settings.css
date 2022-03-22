@@ -1,0 +1,41 @@
+.settings__setting {
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settings-list:not(:last-child) {
+  border-bottom: var(--main-border);
+}
+
+.settings__setting i {
+  margin-right: 20px;
+  font-size: 20px;
+  color: rgb(61, 61, 61);
+}
+
+.settings-list {
+  padding: 0px 10px;
+}
+
+.settings__setting-column:last-child {
+  color: var(--grey-color);
+}
+
+.settings__setting-column {
+  position: relative;
+  z-index: 0;
+}
+
+.settings__setting-dot {
+  background-color: tomato;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  position: absolute;
+  right: -15px;
+  top: -8px;
+}

@@ -1,0 +1,32 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px var(--horizontal-space) 18px;
+  background-color: var(--main-color);
+  color: white;
+}
+
+.screen-header__title {
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+}
+
+.screen-header__icons span {
+  margin-left: 20px;
+  color: white;
+}
+
+@keyframes rotateGear {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(180deg);
+  }
+}
+
+.screen-header__icons .fa-gear:hover {
+  animation: rotateGear 1s linear infinite;
+}
