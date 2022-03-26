@@ -1,13 +1,3 @@
-.screen-header__dot {
-  background-color: tomato;
-  width: 8px;
-  height: 8px;
-  border-radius: 4px;
-  position: absolute;
-  right: -10px;
-  top: -10px;
-}
-
 .screen-header__icons {
   position: relative;
 }
