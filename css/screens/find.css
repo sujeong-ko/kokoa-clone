@@ -14,18 +14,23 @@
 
 .recommended-friends__friends-list {
   display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
+  margin: 10px;
+  overflow-x: scroll;
 }
 
 .recommended-friends__friends {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 5px;
   background-color: var(--main-yellow);
   padding: 23px;
   border-radius: 20px;
   transition: opacity 0.05s ease-out;
+}
+
+.recommended-friends__friends:not(:last-child) {
+  margin-right: 10px;
 }
 
 .recommended-friends__friends:hover {
