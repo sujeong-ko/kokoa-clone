@@ -45,7 +45,7 @@
   margin-bottom: 25px;
 }
 
-.message-row img {
+.message-row > img {
   width: 50px;
   height: 50px;
   border-radius: 30px;
@@ -73,6 +73,16 @@
   padding: 15px;
   border-radius: 13px;
   border-top-left-radius: 0px;
+}
+
+.message__bubble--img {
+  background-color: white;
+  border: 2px solid #ffbfcf;
+  padding: 10px;
+}
+
+.message__bubble--img img {
+  width: 130px;
 }
 
 .message__time,
