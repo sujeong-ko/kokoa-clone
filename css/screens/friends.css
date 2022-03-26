@@ -44,3 +44,7 @@
   height: 90%;
   object-fit: cover;
 }
+
+.fa-music:hover {
+  transform: scale(1.2);
+}
