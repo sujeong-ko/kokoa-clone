@@ -149,11 +149,11 @@
 .reply__column:last-child button {
   position: absolute;
   top: 4.5px;
-  right: -15px;
+  right: 5px;
 }
 
 .reply__column:last-child > i {
-  right: 25px;
+  right: 40px;
   top: 18px;
 }
 
