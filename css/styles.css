@@ -22,6 +22,7 @@
 @import "screens/chat.css";
 @import "screens/music.css";
 @import "screens/movies.css";
+@import "screens/books.css";
 
 body {
   font-family: "Josefin Sans", sans-serif;
