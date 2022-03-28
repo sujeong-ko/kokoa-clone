@@ -69,3 +69,20 @@
   opacity: 0.7;
   background-color: var(--main-pastel);
 }
+
+.user-component__music {
+  display: block;
+  padding: 5px 10px;
+  font-size: 10px;
+  border: 1px solid var(--main-pastel);
+  border-radius: 20px;
+}
+
+.user-component:first-child .user-component__music {
+  font-size: 13px;
+}
+
+.user-component__music i {
+  margin: 3px;
+  color: var(--main-color);
+}
